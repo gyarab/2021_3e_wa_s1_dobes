@@ -1,22 +1,33 @@
-#a=int(input("Zadej cislo: "))
-#b=int(input("Zadej cislo: "))
+# print('Program na scitani dvou cisel A+B')
+# a = float(input('Zadej A: '))
+# b = float(input('Zadej B: '))
+# suma = a + b
+# print(f"Soucet je {suma:.2f}.")
 
-#soucet = a+b
+# t = "ahoj kamo"
+# t.upper().replace()
 
-#print(soucet)
-#t = "ahoj kamo"
-#print(t[3])
-#print(t[-3:])
-#s = t.upper().replace('O', 'x')
 
-#print (s)
+# 'ahoj'
+
+# +
+# -
+# *
+# /
+# //
+# %
+# **
+# # +=
+# x = 10
+# x **= 3
+# print(x)
+
 from turtle import *
 shape('turtle')
 speed(1)
 
-#for i in range(4):
+for i in range(4):
     forward(50)
     left(90)
-    forward(50)
-    left(45)
+
 exitonclick()
