@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="Z:\WA\2021_3e_wa_s1_dobes\pythonIntro\venv"
+VIRTUAL_ENV="C:\Users\2019-e-dobes\Documents\GitHub\2021_3e_wa_s1_dobes\pythonIntro\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

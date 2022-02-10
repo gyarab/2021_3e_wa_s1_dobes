@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=Z:\WA\2021_3e_wa_s1_dobes\pythonIntro\venv
+set VIRTUAL_ENV=C:\Users\2019-e-dobes\Documents\GitHub\2021_3e_wa_s1_dobes\pythonIntro\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
