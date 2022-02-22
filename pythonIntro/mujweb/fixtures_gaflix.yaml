@@ -1,0 +1,82 @@
+ 
+- model: gaflix.movie
+  pk: 1
+  fields:
+    title: Babovřesky
+    description: |
+      Babovřesky jsou příjemný rodinný film z vesnického prostředí režírovaný nejlepším českým režisérem Zdeňkem Troškou.
+    csfd_rating: 23
+    director: 1
+    actors:
+    - 1
+    categories:
+    - 1
+    
+- model: gaflix.movie
+  pk: 2
+  fields:
+    title: Babovřesky 2
+    description: |
+      Druhý díl Babovřesek je pokračování oblíbeného prvního dílu. Režie je opět pod taktovkou našeho oblíbeného Zdeňka Trošky.
+    csfd_rating: 24
+    director: 1
+    actors:
+    - 1
+    categories:
+    - 1
+
+ 
+- model: gaflix.movie
+  pk: 3
+  fields:
+    title: Babovřesky 3
+    description: |
+      Poslední pokračování letní "komedie" v režii Zdeňka "GOAT" Trošky.
+    csfd_rating: 19
+    director: 1
+    actors:
+    - 1
+    categories:
+    - 1
+
+
+- model: gaflix.actor
+  pk: 1
+  fields:
+    name: Lucie Vondráčková
+    description: |
+      Lucie Vondráčková je česká herečka, zpěvačka, textařka a také dabérka. Nejvíc se proslavila účinkováním v "komediální" sérii Babovřesky, či komedii Snowboarďáci.
+    birth_date: 1980-03-08
+    
+- model: gaflix.actor
+  pk: 2
+  fields:
+    name: Daniel Harry Radcliffe
+    description: |
+        Daniel Harry Radliffe je anglický herec známý díky svým rolím ve fantasy sérii Harry Potter a ... ne, není známý díky ničemu jinému.  
+    birth_date: 1989-07-23
+
+
+- model: gaflix.director
+  pk: 1
+  fields:
+    name: Zdeněk GOAT Troška
+    description: |
+      Zdeněk Troška je absolutně nejlepší režisér, který byl kdy narozen. Proslavil se díky naprosto legendárním, nezapomenutelným a dokonalým filmovým sériím Babovřesky, Kameňák a Slunce seno.
+    birth_date: 1953-05-18
+- model: gaflix.category
+  pk: 1
+  fields:
+    title: Comedian movies
+    
+- model: gaflix.director
+  pk: 1
+  fields:
+    name: Tomáš Magnusek
+    description: |
+      Další klenot české kinematografie- režisér Tomáš Magnusek se proslavil díky "skvělým" "komediím" Bastardi. 
+    birth_date: 1953-05-18
+- model: gaflix.category
+  pk: 1
+  fields:
+    title: Comedian movies
