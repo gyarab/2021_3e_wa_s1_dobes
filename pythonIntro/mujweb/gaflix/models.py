@@ -12,6 +12,10 @@ class Movie(models.Model):
     def __str__(self):
         return self.title
 
+SEX_MALE = 'male'
+SEX_FEMALE = 'female'
+SEX_OTHER = 'other'
+
 SEX_CHOICES = [
     ['male', 'Muž'],
     ['female', 'Žena'],
