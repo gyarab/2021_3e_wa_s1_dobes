@@ -46,15 +46,16 @@
     description: |
       Lucie Vondráčková je česká herečka, zpěvačka, textařka a také dabérka. Nejvíc se proslavila účinkováním v "komediální" sérii Babovřesky, či komedii Snowboarďáci.
     birth_date: 1980-03-08
+    sex: female
     
 - model: gaflix.actor
   pk: 2
   fields:
     name: Daniel Harry Radcliffe
     description: |
-        Daniel Harry Radliffe je anglický herec známý díky svým rolím ve fantasy sérii Harry Potter a ... ne, není známý díky ničemu jinému.  
+        Daniel Harry Radcliffe je anglický herec známý díky svým rolím ve fantasy sérii Harry Potter a ... ne, není známý díky ničemu jinému.  
     birth_date: 1989-07-23
-
+    sex: male
 
 - model: gaflix.director
   pk: 1
@@ -69,13 +70,13 @@
     title: Comedian movies
     
 - model: gaflix.director
-  pk: 1
+  pk: 2
   fields:
     name: Tomáš Magnusek
     description: |
       Další klenot české kinematografie- režisér Tomáš Magnusek se proslavil díky "skvělým" "komediím" Bastardi. 
     birth_date: 1984-07-07
 - model: gaflix.category
-  pk: 1
+  pk: 2
   fields:
     title: Comedian movies

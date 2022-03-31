@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  <title> Actors </title>
+  {% endblock %}
+
+  {% block content %}
+    <div class="container-fluid">
+
+        {% for actor in actors %}
+        <h2>{{actor.name}} {{actor.birth_date}}</h2>
+        <p>{{actor.description}}</p>
+        
+{% endblock %}

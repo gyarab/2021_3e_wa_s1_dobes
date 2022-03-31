@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  <title> Movies </title>
+  {% endblock %}
+
+  {% block content %}
+    <div class="container-fluid">
+
+      <div>
+        {% for category in categories %}
+        <a href="{% url 'category_detail' category.pk %}" class="btn btn-primary btn-lg">{{category.title}}</a>
+        {%endfor%}
+        </div>
+
+        {% for movie in movies %}
+        <h2>{{movie.title}}</h2>
+        <p>{{movie.description}}</p>
+        <ul>
+          <li>
+            Režisér: {{movie.director}}
+          </li>
+            Herci:
+        <ul>
+          {% for actor in movie.actors.all %}
+            <li>{{actor.name}} &ndash; {{actor.birth_date|date:"j. n. Y"}}</li>
+          {%endfor%}
+        </ul>
+      </ul>
+        {%endfor%}
+      </div>
+{% endblock %}
