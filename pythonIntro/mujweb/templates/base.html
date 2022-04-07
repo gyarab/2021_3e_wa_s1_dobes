@@ -24,7 +24,7 @@
                     <a class="nav-link{% if url == request.path %} active{% endif %}" href="{{ url }}">Home</a>
                 </li>
                 
-                {% url 'actors' as url %}
+                {% url 'actorList' as url %}
                 <li class="nav-item">
                     <a class="nav-link{% if url == request.path %} active{% endif %}" href="{{ url }}">Actors</a>
                 </li>

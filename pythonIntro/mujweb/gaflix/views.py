@@ -15,6 +15,16 @@ def category_detail(request, category_id):
         return HttpResponseNotFound("Category does not exist") 
     return render(request, 'homepage.html', context)
 
+def movie_detail(request, movie_id):
+    try:
+        context = {
+            'movie': Movie.objects.get(id=movie_id),   
+            #'movie': Movie.objects.filter(id=movie_id),
+        }
+    except Movie.DoesNotExist:
+        return HttpResponseNotFound("Category does not exist") 
+    return render(request, 'movie_detail.html', context)
+
 def movielist(request):
     context = {
         'movies': Movie.objects.all(),
